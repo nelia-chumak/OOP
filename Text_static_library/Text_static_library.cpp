@@ -153,11 +153,9 @@ MyContainerClass& MyContainerClass::delete_string(int position) {
     else this->cleaner();
 }
 MyContainerClass& MyContainerClass::cleaner() {
-    MyContainerClass newContainer;
-    newContainer.text = new MyStringClass[1];
-    newContainer.text[0] = "";
+    MyStringClass* Text = new MyStringClass[0];
+    this->text = Text;
     this->clv_str = 0;
-    *(this->text) = *(newContainer.text);
     return *this;
 }
 MyStringClass MyContainerClass::smallest() {
