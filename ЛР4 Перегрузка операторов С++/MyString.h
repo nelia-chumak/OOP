@@ -3,9 +3,11 @@
 
 class MyStringClass {
 private:
+
     char* str;
 
 public:
+
     MyStringClass();
     MyStringClass(const char*);
     MyStringClass(const MyStringClass&);
