@@ -1,0 +1,3 @@
+Negative value under square root 9.5.2020
+Division by 0 9.5.2020
+Matching item not found 9.5.2020
